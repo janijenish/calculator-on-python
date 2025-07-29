@@ -1,0 +1,14 @@
+num1 = int(input("enter 1st num"))
+num2 = int(input("enter 2nd num"))
+print("enter 1 for sum \nenter 2 for diffrence \nenter 3 for product \nenter 4 for division")
+menu = int(input("menu :"))
+if(menu == 1):
+    print("sum is :",num1 + num2)
+elif(menu == 2):
+    print("diff is :",num1 - num2)
+elif(menu == 3):
+    print("product is :",num1 * num2)
+elif(menu == 4):
+    print("division is :",num1 / num2)
+else:
+    print("not supported")
